@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "427C03A11BD6EBDA008F5009"
+               BuildableName = "Hinge - iOS Large Photo AppUITests.xctest"
+               BlueprintName = "Hinge - iOS Large Photo AppUITests"
+               ReferencedContainer = "container:Hinge - iOS Large Photo App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "427C03AF1BD6EBE5008F5009"
+               BuildableName = "Hinge - iOS Large Photo AppTests.xctest"
+               BlueprintName = "Hinge - iOS Large Photo AppTests"
+               ReferencedContainer = "container:Hinge - iOS Large Photo App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -1,15 +1,26 @@
+//!
+//  @file ViewController.h
+//  @brief This is the header file where my super-code is contained.
 //
-//  ViewController.h
 //  Hinge - iOS Large Photo App
 //
-//  Created by Joshua on 10/19/15.
-//  Copyright © 2015 joshuacleetus. All rights reserved.
+//  @author Joshua Cleetus
+//  @copyright  2015 Joshua Cleetus
+//  @version    10/19/15.
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, NSURLSessionDelegate, DetailViewControllerDelegate>
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+- (void)startAllDownloads:(id)sender;
+
+- (void)stopAllDownloads:(id)sender;
+
+- (void)initializeAll:(id)sender;
 
 @end
 

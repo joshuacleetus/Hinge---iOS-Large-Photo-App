@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    /*
+     We will display images in ViewController.
+     Here, we wrap our ViewController in a UINavigationController, and set it as the root view controller.
+     */
+    
+    ViewController *listViewController = [[ViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:listViewController];
+    
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
+    
+}
+
+-(void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler{
+    //the completion handler passed from the system to our app is stored to the property we declared
+    self.backgroundTransferCompletionHandler = completionHandler;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

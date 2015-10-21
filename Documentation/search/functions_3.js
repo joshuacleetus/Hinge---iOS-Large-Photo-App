@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['cachedimageexistsforurl_3a',['cachedImageExistsForURL:',['../interface_s_d_web_image_manager.html#a9634c36e65314e0b973056a96f6a62e2',1,'SDWebImageManager']]],
+  ['cachedimageexistsforurl_3acompletion_3a',['cachedImageExistsForURL:completion:',['../interface_s_d_web_image_manager.html#aa72af601cfd30dd294599f2f3df28521',1,'SDWebImageManager']]],
+  ['cachekeyforurl_3a',['cacheKeyForURL:',['../interface_s_d_web_image_manager.html#a6f02c3f166329cdc53553621a7f8c04a',1,'SDWebImageManager']]],
+  ['cachepathforkey_3ainpath_3a',['cachePathForKey:inPath:',['../interface_s_d_image_cache.html#ae1de10e873f845c01509585b3e1716a3',1,'SDImageCache']]],
+  ['calculatesizewithcompletionblock_3a',['calculateSizeWithCompletionBlock:',['../interface_s_d_image_cache.html#a276a37cdab08d116906f65040bad9c99',1,'SDImageCache']]],
+  ['cancel',['cancel',['../protocol_s_d_web_image_operation-p.html#a98ded7ae5ff534f5fd532b8c255f0271',1,'SDWebImageOperation-p']]],
+  ['cancelall',['cancelAll',['../interface_s_d_web_image_manager.html#a8cd0959562d0120f6a1976b8f9d49b7b',1,'SDWebImageManager']]],
+  ['cancelbackgroundimageloadforstate_3a',['cancelBackgroundImageLoadForState:',['../category_u_i_button_07_web_cache_deprecated_08.html#a5aad18d7bd7dc24fa75bc7150e8e0fc9',1,'UIButton(WebCacheDeprecated)']]],
+  ['cancelconnection',['cancelConnection',['../category_a_f_u_r_l_connection_operation_07_08.html#a049154202d6a6d7fddab2c887b411b66',1,'AFURLConnectionOperation()']]],
+  ['cancelprefetching',['cancelPrefetching',['../interface_s_d_web_image_prefetcher.html#ac05c31b5d8d38b478753d62374fc860c',1,'SDWebImagePrefetcher']]],
+  ['cleandisk',['cleanDisk',['../interface_s_d_image_cache.html#a491f75cc5c1df37dce478c00f898a0d8',1,'SDImageCache']]],
+  ['cleandiskwithcompletionblock_3a',['cleanDiskWithCompletionBlock:',['../interface_s_d_image_cache.html#a1f82c522f4cb0fafdb063291cbcb23d0',1,'SDImageCache']]],
+  ['clearauthorizationheader',['clearAuthorizationHeader',['../interface_a_f_h_t_t_p_request_serializer.html#a211e5d5ca44cd3f2fe0e1f1deeb9ef17',1,'AFHTTPRequestSerializer']]],
+  ['cleardisk',['clearDisk',['../interface_s_d_image_cache.html#a2a9bcc872d749959df5dd458247b3301',1,'SDImageCache']]],
+  ['cleardiskoncompletion_3a',['clearDiskOnCompletion:',['../interface_s_d_image_cache.html#ab936a83a1b711209d30f9051cc3658cc',1,'SDImageCache']]],
+  ['clearmemory',['clearMemory',['../interface_s_d_image_cache.html#a931b161c379dd952affffe8c0544527d',1,'SDImageCache']]],
+  ['compoundserializerwithresponseserializers_3a',['compoundSerializerWithResponseSerializers:',['../interface_a_f_compound_response_serializer.html#a48bf2d3d5a18d9cc73b6e29ef30c6e56',1,'AFCompoundResponseSerializer']]],
+  ['contenttypeforimagedata_3a',['contentTypeForImageData:',['../category_n_s_data_07_image_content_type_deprecated_08.html#a4f4beecd8ec7bfb2beb63b33632d8024',1,'NSData(ImageContentTypeDeprecated)']]]
+];
